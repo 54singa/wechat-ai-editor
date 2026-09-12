@@ -20,36 +20,6 @@
 git clone https://github.com/54singa/wechat-ai-editor.git ~/.codex/skills/wechat-ai-editor
 ```
 
-这是私有仓库，命令行需要已经登录有权限的 GitHub 账号。也可以下载仓库后，将整个目录复制到：
-
-```text
-~/.codex/skills/wechat-ai-editor/
-```
-
-安装后应至少保留下面的结构：
-
-```text
-wechat-ai-editor/
-├── SKILL.md
-├── agents/
-│   └── openai.yaml
-└── references/
-    ├── editorial-profile.md
-    ├── topic-and-cases.md
-    ├── drafting-and-revision.md
-    ├── titles-and-hooks.md
-    ├── voice-examples.md
-    ├── publishing.md
-    └── evidence-index.md
-```
-
-如果同名 Skill 已存在，更新时进入目录拉取最新版本：
-
-```bash
-cd ~/.codex/skills/wechat-ai-editor
-git pull
-```
-
 ## 怎么调用
 
 在任务中直接点名 `wechat-ai-editor`，并说明你当前需要的交付物。无需每次把整篇文章的所有信息重新整理成表格；有 Brief、大纲、截图、实测结果或现有稿件时，直接一起提供。
